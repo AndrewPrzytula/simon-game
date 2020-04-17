@@ -54,6 +54,9 @@ border-radius: 20%;
 h3{
   font-size: 0.5rem;
 }
+.container{
+  width: 100%;
+}
 
 
 }
