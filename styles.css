@@ -16,6 +16,7 @@ font-family: serif;
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+
 }
 
 .container {
@@ -25,6 +26,9 @@ font-family: serif;
 
 }
 
+
+
+
 .btn {
   margin: 25px;
   display: inline-block;
@@ -33,6 +37,26 @@ font-family: serif;
   border: 10px solid black;
   border-radius: 20%;
 }
+
+@media(max-width:576px) {
+.btn{
+margin:10px;
+height: 100px;
+width:100px;
+
+}
+#level-title{
+
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 1rem;
+}
+
+
+}
+
+
 
 .game-over {
   background-color: red;
@@ -49,7 +73,7 @@ margin:0 10%;
 
 .in-div{
 
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .red {
